@@ -16,7 +16,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 Add this lib into the dependencies section :
 
 dependencies {
-    compile 'com.mylibrary:mylibrary:1.4'
+    compile 'com.libRG:customtextview:1.0'
 }
 
 ```
@@ -24,7 +24,7 @@ dependencies {
 # XML
 
 ```
- <com.mylibrary.CustomTextView
+ <com.libRG.CustomTextView
                 android:id="@+id/customTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,26 +71,6 @@ dependencies {
  | lib_setTrimLength          | if readmore true, set char length |  240 char in default          |
 
 
-
-# Major changes in 1.4 version
-
-```
-    attribures modification:
-    
-    lib_setReadMoreEnable                 ->    lib_setExpandableText
-    lib_trimMode                          ->    lib_setTrimMode
-    lib_trimLines                         ->    lib_setTrimLines
-    lib_shape                             ->    lib_setShape
-    lib_colorClickableText                ->    lib_setActionTextColor
-    lib_trimLength                        ->    lib_setTrimLength
-    lib_showTrimExpandedText              ->    lib_setActionTextVisible
-    lib_trimCollapsedText                 ->    removed
-    lib_trimExpandedText                  ->    removed
-    
-    
-Note : 1.3 and lower versions remainds the old attributes.    
-    
-```
 
 
 
