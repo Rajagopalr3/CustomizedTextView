@@ -13,7 +13,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 
 ```
 
-Add this lib into the dependencies section :
+# Gradle Depedencies :
 
 dependencies {
     compile 'com.libRG:customtextview:1.0'
@@ -21,6 +21,12 @@ dependencies {
 
 Note : use "implementation" instead of "compile" in dependencies section.
        "compile" is deprecated in android studio 3+ versions. 
+
+# Import as Module
+
+Download customtextview-1.0.aar file and import as module into your gradle file:
+
+
 
 ```
 
