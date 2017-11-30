@@ -19,7 +19,8 @@ dependencies {
     compile 'com.libRG:customtextview:1.0'
 }
 
-Note : use "implementation" instead of "compile" in dependencies section. "compile" is deprecated in android studio 3+ versions. 
+Note : use "implementation" instead of "compile" in dependencies section.
+       "compile" is deprecated in android studio 3+ versions. 
 
 ```
 
