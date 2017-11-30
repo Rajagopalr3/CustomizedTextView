@@ -8,14 +8,73 @@
     tools:context="com.raja.customtextview.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <com.libRG.CustomTextView
-        android:layout_width="wrap_content"
+  
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hello World!"
-        app:lib_setRoundedView="true"
-        app:lib_setShape="rectangle"
-        app:lib_setRoundedBorderColor="@color/colorPrimary"
-        app:lib_setStrokeWidth="1.5dp" />
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.libRG.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Your Text Here...."
+            app:lib_setRoundedBorderColor="@color/colorPrimary"
+            app:lib_setRoundedView="true"
+            app:lib_setShape="rectangle"
+            app:lib_setStrokeWidth="1.5dp" />
+
+        <com.libRG.CustomTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="10"
+            android:textColor="@color/white"
+            app:lib_setFont="@string/droidSansBold"
+            app:lib_setRoundedBGColor="@color/colorAccent"
+            app:lib_setRoundedBorderColor="@color/colorPrimary"
+            app:lib_setRoundedView="true"
+            app:lib_setShape="oval"
+            app:lib_setStrokeWidth="1.5dp" />
+
+        <com.libRG.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="@string/hint"
+            app:lib_setExpandableText="true"
+            app:lib_setRoundedBorderColor="@color/colorAccent"
+            app:lib_setRoundedView="true"
+            app:lib_setShape="rectangle"
+            app:lib_setStrokeWidth="1dp"
+            app:lib_setRadius="@dimen/dimen_2dp"
+            app:lib_setRoundedBGColor="@color/gray"
+            android:textColor="@color/white"
+            app:lib_setActionTextColor="@color/colorAccent"
+            app:lib_setTrimLines="2" />
+
+
+        <com.libRG.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Submit"
+            app:lib_setRoundedBorderColor="@color/gray"
+            app:lib_setRoundedView="true"
+            app:lib_setShape="rectangle"
+            android:layout_marginTop="10dp"
+            app:lib_setStrokeWidth="1dp" />
+        
+
+    </LinearLayout>
 
 </RelativeLayout>
