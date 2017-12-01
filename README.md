@@ -1,12 +1,21 @@
 
 # Customized and Expandable TextView
 
-Simple library to change the Textview as rectangle, oval and square shapes by adding one line of code in xml file.Also it has the feature of expandable text and adding fonts to the text. 
+Simple library to change the Textview as rectangle, circle and square shapes by adding one line of code in xml file.Multiple features are implemented in sindgle textview element.
+
+# Features
+
+1.Textview shapes, rectangle, square,circle shapes
+2.Expandable textview
+3.Font change via xml
+4.UnderLine textview via xml
+
+the above features are done through xml file.
 
  ![Screenshot](screenshot1.png)
 
 # Usage
-To make a CustomTextView in your layout XML and add CustomTextView library in your project or you can also add it via Gradle.
+To add CustomTextView into your project, import .aar as module or add through to gradle. 
 
 
 Add it in your app build.gradle at the end of repositories if not present in gradle file:
@@ -26,7 +35,7 @@ Note : use "implementation" instead of "compile" in dependencies section.
 
 Link to download customtextview-1.0.aar file and import as module into your gradle file:
 
-https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.0.aar
+https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.1.aar
 
 
 ```
