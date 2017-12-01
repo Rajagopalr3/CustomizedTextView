@@ -16,7 +16,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    compile 'com.libRG:customtextview:1.0'
+    compile 'com.libRG:customtextview:1.1'
 }
 
 Note : use "implementation" instead of "compile" in dependencies section.
@@ -78,7 +78,7 @@ https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview
  | lib_setActionTextColor     | set color of action text          |  current theme's accent color |
  | lib_setTrimMode            | set trim mode by line or length   |  trimModeLine|trimModeLength  |
  | lib_setTrimLines           | set lines to trim in textview     |  0 in default                 |
- | lib_setTrimLength          | if readmore true, set char length |  240 char in default          |
+ | lib_setUnderLineText       | set underline to text in textview |  false in default             |
 
 
 
