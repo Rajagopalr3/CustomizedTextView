@@ -3,7 +3,7 @@
 
 Simple library to change the Textview as rectangle, oval and square shapes by adding one line of code in xml file.Also it has the feature of expandable text and adding fonts to the text. 
 
-                                                ![Screenshot](screenshot1.png)
+ ![Screenshot](screenshot1.png)
 
 # Usage
 To make a CustomTextView in your layout XML and add CustomTextView library in your project or you can also add it via Gradle.
