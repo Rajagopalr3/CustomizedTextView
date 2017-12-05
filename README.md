@@ -3,12 +3,12 @@
 
 Simple library to change the Textview as rectangle, circle and square shapes by adding one line of code in xml file.Multiple features are implemented in sindgle textview element.
 
-# Features
+# Features  
 
-1.Textview shapes, rectangle, square,circle shapes
-2.Expandable textview
-3.Font change via xml
-4.UnderLine textview via xml
+1.Textview shape  -> rectangle, square and circle shapes  
+2.Expandable textview 
+3.Font change via xml  
+4.UnderLine textview via xml  
 
 the above features are done through xml file.
 
