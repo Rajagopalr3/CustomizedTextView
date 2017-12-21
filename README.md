@@ -31,14 +31,12 @@ dependencies {
 Note : use "implementation" instead of "compile" in dependencies section.
        "compile" is deprecated in android studio 3+ versions. 
 
-# Import as Module
 
-Link to download customtextview-1.0.aar file and import as module into your gradle file:
+```
+# Import as Module
 
 [Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.2.aar
 
-
-```
 
 # XML
 
