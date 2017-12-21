@@ -12,7 +12,7 @@ Simple library to change the Textview as rectangle, circle and square shapes by 
 
 the above features are done through xml file.
 
- ![Screenshot](screenshot1.png)
+ ![Screenshot](screenshot_new.png)
 
 # Usage
 To add CustomTextView into your project, import .aar as module or add through to gradle. 
@@ -94,18 +94,25 @@ Bug Fixes:
  |        Attributes          |            Description            |         Default Value         |
  | ------------------------   | -------------------------------   | --------------------------    |
  | lib_setRoundedView         | if true rounded view enabled      |  false in default             |
- | lib_setShape               | if roundedview true, set shape    |  rectagnle|oval               |
+ | lib_setShape               | if roundedview true, set shape    |  rectangle in default         |
  | lib_setStrokeWidth         | set stroke width in dp            |  1 dp in default              |
  | lib_setRoundedBorderColor  | set stroke color                  |  current theme's accent color |
- | lib_setRadius              | set corner radius of rectanle     |  1 dp in default              |
- | lib_setRoundedBGColor      | set BG color of rectangle,circle  |  transparent color in deafult |
+ | lib_setRadius              | set corner radius of rectangle    |  1 dp in default              |
+ | lib_setRoundedBGColor      | set BG color of rectangle,circle  |  transparent color in default |
  | lib_setFont                | set font name in string           |  android's default font       |
  | lib_setExpandableText      | if true expandable text enabled   |  false in default             |
  | lib_setActionTextVisible   | set visibility if action text     |  false in default             |
  | lib_setActionTextColor     | set color of action text          |  current theme's accent color |
- | lib_setTrimMode            | set trim mode by line or length   |  trimModeLine|trimModeLength  |
  | lib_setTrimLines           | set lines to trim in textview     |  0 in default                 |
  | lib_setUnderLineText       | set underline to text in textview |  false in default             |
+ | lib_setStrikeText          | set strike through text in view   |  false in default             |
+ | lib_setCheckedText         | set checked mode enable in view   |  false in default             |
+ | lib_setChecked             | change state as checked|unchecked |  unchecked state in default   |
+ | lib_checkedDrawable        | set checked drawable icon         |  default checked icon added   |
+ | lib_unCheckedDrawable      | set unchecked drawable icon       |  default unchecked icon added |
+ | lib_checkMarkTint          | set drawable color in textview    |  default color                |
+ | lib_checkedIconPosition    | set checkBox position             |  right side in default        |
+ | lib_checkedDrawablePadding | set checkBox padding in view      |  right side in default        |
 
 
 
