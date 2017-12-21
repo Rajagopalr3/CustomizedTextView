@@ -35,7 +35,7 @@ Note : use "implementation" instead of "compile" in dependencies section.
 
 Link to download customtextview-1.0.aar file and import as module into your gradle file:
 
-https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.1.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.2.aar
 
 
 ```
