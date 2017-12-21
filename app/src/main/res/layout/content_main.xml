@@ -1,80 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.raja.customtextview.MainActivity"
-    tools:showIn="@layout/activity_main">
 
-  
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
-        android:padding="10dp">
+        android:layout_height="match_parent"
+        android:scrollbars="none">
 
-        <com.libRG.CustomTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="5dp"
-            android:text="Your Text Here...."
-            app:lib_setRoundedBorderColor="@color/colorPrimary"
-            app:lib_setRoundedView="true"
-            app:lib_setShape="rectangle"
-            app:lib_setStrokeWidth="1.5dp" />
-
-        <com.libRG.CustomTextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:padding="5dp"
-            android:text="10"
-            android:textColor="@color/white"
-            app:lib_setFont="@string/droidSansBold"
-            app:lib_setRoundedBGColor="@color/colorAccent"
-            app:lib_setRoundedBorderColor="@color/colorPrimary"
-            app:lib_setRoundedView="true"
-            app:lib_setShape="oval"
-            app:lib_setStrokeWidth="1.5dp" />
-
-        <com.libRG.CustomTextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:padding="5dp"
-            android:text="@string/hint"
-            app:lib_setExpandableText="true"
-            app:lib_setRoundedBorderColor="@color/colorAccent"
-            app:lib_setRoundedView="true"
-            app:lib_setShape="rectangle"
-            app:lib_setStrokeWidth="1dp"
-            app:lib_setRadius="@dimen/dimen_2dp"
-            app:lib_setRoundedBGColor="@color/gray"
-            android:textColor="@color/white"
-            app:lib_setActionTextColor="@color/colorAccent"
-            app:lib_setTrimLines="2" />
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.libRG.CustomTextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="@string/hint"
+                android:textColor="#746d6d"
+                app:lib_setActionTextColor="@color/colorAccent"
+                app:lib_setExpandableText="true"
+                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setRadius="3dp"
+                app:lib_setRoundedBorderColor="#746d6d"
+                app:lib_setRoundedView="true"
+                app:lib_setStrokeWidth="1.5dp"
+                app:lib_setTrimLines="4" />
+
+            <com.libRG.CustomTextView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="CheckedTextView"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible"
+                app:lib_checkMarkTint="@color/colorPrimary"
+                app:lib_checkedDrawable="@drawable/ic_checked_img"
+                app:lib_checkedIconPosition="right"
+                app:lib_setChecked="true"
+                app:lib_setCheckedText="true"
+                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setRadius="3dp"
+                app:lib_setRoundedBorderColor="@color/colorPrimary"
+                app:lib_setRoundedView="true"
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
 
 
-        <com.libRG.CustomTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="5dp"
-            android:text="Submit"
-            app:lib_setRoundedBorderColor="@color/gray"
-            app:lib_setRoundedView="true"
-            app:lib_setShape="rectangle"
-            android:layout_marginTop="10dp"
-            app:lib_setStrokeWidth="1dp" />
-        
+            <com.libRG.CustomTextView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="CheckedTextView"
+                android:textColor="@color/colorAccent"
+                app:lib_checkMarkTint="@color/colorAccent"
+                app:lib_checkedDrawable="@drawable/ic_checked_img"
+                app:lib_checkedIconPosition="left"
+                app:lib_setChecked="true"
+                app:lib_setCheckedText="true"
+                app:lib_setRadius="3dp"
+                app:lib_setRoundedBorderColor="@color/colorAccent"
+                app:lib_setRoundedView="true"
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
 
-    </LinearLayout>
 
-</RelativeLayout>
+            <com.libRG.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Strike Text"
+                android:textSize="16dp"
+                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setStrikeText="true" />
+
+            <com.libRG.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="UnderLine Text"
+                android:textColor="#2995cf"
+                android:textSize="16dp"
+                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setUnderLineText="true" />
+
+            <com.libRG.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="CheckedTextView"
+                android:textColor="@color/colorPrimary"
+                app:lib_checkMarkTint="@color/colorPrimary"
+                app:lib_checkedDrawable="@drawable/ic_checked_img"
+                app:lib_checkedIconPosition="left"
+                app:lib_setChecked="true"
+                app:lib_setCheckedText="true"
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
+
+            <com.libRG.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="CheckedTextView"
+                android:textColor="@color/colorPrimary"
+                app:lib_checkMarkTint="@color/colorPrimary"
+                app:lib_checkedDrawable="@drawable/ic_checked_img"
+                app:lib_checkedIconPosition="left"
+                app:lib_setChecked="true"
+                app:lib_setCheckedText="true"
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.libRG.CustomTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setRoundedBGColor="@color/colorAccent"
+                    app:lib_setRoundedView="true"
+                    app:lib_setShape="oval"
+                    app:lib_setStrokeWidth="2dp" />
+
+
+                <com.libRG.CustomTextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Submit"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16dp"
+                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setRadius="3dp"
+                    app:lib_setRoundedBorderColor="@color/colorPrimaryDark"
+                    app:lib_setRoundedView="true"
+                    app:lib_setStrokeWidth="1dp" />
+
+                <com.libRG.CustomTextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Square Text"
+                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setRoundedView="true"
+                    app:lib_setShape="rectangle"
+                    app:lib_setStrokeWidth="2dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
