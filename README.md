@@ -12,7 +12,7 @@ Simple library to change the Textview as rectangle, circle and square shapes by 
 
 the above features are done through xml file.
 
- ![Screenshot](screenshot_new.png)
+ ![Screenshot](screenshot1.png)
 
 # Usage
 To add CustomTextView into your project, import .aar as module or add through to gradle. 
