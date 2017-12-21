@@ -110,7 +110,7 @@ Bug Fixes:
  | lib_unCheckedDrawable      | set unchecked drawable icon       |  default unchecked icon added |
  | lib_checkMarkTint          | set drawable color in textview    |  default color                |
  | lib_checkedIconPosition    | set checkBox position             |  right side in default        |
- | lib_checkedDrawablePadding | set checkBox padding in view      |  right side in default        |
+ | lib_checkedDrawablePadding | set checkBox padding in view      |  5dp in default               |
 
 
 
