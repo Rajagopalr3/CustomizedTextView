@@ -44,20 +44,25 @@ https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview
 
 ```
  <com.libRG.CustomTextView
-                android:id="@+id/customTxt"
+                android:id="@+id/c6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:padding="5dp"
-                android:text="Your Text Here..."
-                app:lib_setFont="@string/DroidSansBold"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="CheckedTextView"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible"
+                app:lib_checkMarkTint="@color/colorPrimary"
+                app:lib_checkedDrawable="@drawable/ic_checked_img"
+                app:lib_checkedIconPosition="left"
+                app:lib_setChecked="true"
+                app:lib_setCheckedText="true"
+                app:lib_setFont="@string/droidSansBold"
                 app:lib_setRadius="3dp"
-                app:lib_setRoundedBorderColor="@color/grey"
+                app:lib_setRoundedBorderColor="@color/colorPrimary"
                 app:lib_setRoundedView="true"
-                app:lib_setStrokeWidth="2dp"
-                app:lib_setShape="rectangle" />
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
+
                       
 ```
 
@@ -69,6 +74,19 @@ https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview
     <string name="DroidSansBold">DroidSans-Bold.ttf</string>
     
 ```
+# Change Logs [v1.2]
+
+New feature:
+
+ 1. Added strike through text  
+ 2. Added CheckedTextView with custom listener.
+ 3. We can set custom drawables, drawableTint color for checked & unchecked states
+
+Bug Fixes:
+
+ 1. Fixed the click events in various views like event in underlineText view, rectangle text.
+ 2. Removed unused codes.
+
 
 
 # Attributes
