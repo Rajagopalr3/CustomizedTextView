@@ -27,7 +27,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    compile 'com.libRG:customtextview:1.1'
+    compile 'com.libRG:customtextview:1.2'
 }
 
 Note : use "implementation" instead of "compile" in dependencies section.
