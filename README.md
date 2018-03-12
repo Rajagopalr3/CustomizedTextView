@@ -29,7 +29,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    compile 'com.libRG:customtextview:1.2'
+    compile 'com.libRG:customtextview:1.3'
 }
 
 Note : use "implementation" instead of "compile" in dependencies section.
@@ -39,7 +39,7 @@ Note : use "implementation" instead of "compile" in dependencies section.
 ```
 # Import as Module
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.2.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.3.aar
 
 
 # XML
