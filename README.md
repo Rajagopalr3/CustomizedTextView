@@ -78,8 +78,8 @@ Note : use "implementation" instead of "compile" in dependencies section.
 ```
 # Change Logs [v1.3]
 
- 1. able to change the expanded and collapse hint  
- 2. ABug fixes.
+ 1. Able to change the expanded and collapse hint  
+ 2. Bug fixes.
 
 # Change Logs [v1.2]
 
