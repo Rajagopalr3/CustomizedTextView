@@ -1,3 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.raja.customtextview.MainActivity"
+    tools:showIn="@layout/activity_main">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,13 +31,37 @@
                 android:text="@string/hint"
                 android:textColor="#746d6d"
                 app:lib_setActionTextColor="@color/colorAccent"
+                app:lib_setCollapseHint="hide items to top"
+                app:lib_setExpandHint="show the items below"
                 app:lib_setExpandableText="true"
-                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setFont="@string/robotoBold"
                 app:lib_setRadius="3dp"
                 app:lib_setRoundedBorderColor="#746d6d"
                 app:lib_setRoundedView="true"
                 app:lib_setStrokeWidth="1.5dp"
-                app:lib_setTrimLines="4" />
+                app:lib_setTrimLines="2" />
+
+
+            <com.libRG.CustomTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="@string/hint"
+                android:textColor="#746d6d"
+                app:lib_setActionTextColor="@color/colorAccent"
+                app:lib_setCollapseHint="hide"
+                app:lib_setExpandHint="show more contents"
+                app:lib_setExpandableText="true"
+                app:lib_setFont="@string/robotoBold"
+                app:lib_setRadius="3dp"
+                app:lib_setRoundedBorderColor="#746d6d"
+                app:lib_setRoundedView="true"
+                app:lib_setStrokeWidth="1.5dp"
+                app:lib_setTrimLines="3" />
+
 
             <com.libRG.CustomTextView
                 android:id="@+id/c6"
@@ -42,7 +77,7 @@
                 app:lib_checkedIconPosition="right"
                 app:lib_setChecked="true"
                 app:lib_setCheckedText="true"
-                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setFont="@string/robotoBold"
                 app:lib_setRadius="3dp"
                 app:lib_setRoundedBorderColor="@color/colorPrimary"
                 app:lib_setRoundedView="true"
@@ -74,7 +109,7 @@
                 android:layout_margin="10dp"
                 android:text="Strike Text"
                 android:textSize="16dp"
-                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setFont="@string/robotoBold"
                 app:lib_setStrikeText="true" />
 
             <com.libRG.CustomTextView
@@ -84,7 +119,7 @@
                 android:text="UnderLine Text"
                 android:textColor="#2995cf"
                 android:textSize="16dp"
-                app:lib_setFont="@string/DroidSansBold"
+                app:lib_setFont="@string/robotoBold"
                 app:lib_setUnderLineText="true" />
 
             <com.libRG.CustomTextView
@@ -128,7 +163,7 @@
                     android:text="100"
                     android:textColor="#fff"
                     android:textSize="30dp"
-                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setFont="@string/robotoBold"
                     app:lib_setRoundedBGColor="@color/colorAccent"
                     app:lib_setRoundedView="true"
                     app:lib_setShape="oval"
@@ -144,7 +179,7 @@
                     android:text="Submit"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16dp"
-                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setFont="@string/robotoBold"
                     app:lib_setRadius="3dp"
                     app:lib_setRoundedBorderColor="@color/colorPrimaryDark"
                     app:lib_setRoundedView="true"
@@ -157,7 +192,7 @@
                     android:layout_marginRight="10dp"
                     android:gravity="center"
                     android:text="Square Text"
-                    app:lib_setFont="@string/DroidSansBold"
+                    app:lib_setFont="@string/robotoBold"
                     app:lib_setRoundedView="true"
                     app:lib_setShape="rectangle"
                     app:lib_setStrokeWidth="2dp" />
@@ -168,3 +203,6 @@
         </LinearLayout>
 
     </ScrollView>
+
+
+</LinearLayout>
