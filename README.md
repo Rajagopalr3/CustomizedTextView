@@ -63,7 +63,7 @@ Note : use "implementation" instead of "compile" in dependencies section.
                 app:lib_setRadius="3dp"
                 app:lib_setRoundedBorderColor="@color/colorPrimary"
                 app:lib_setRoundedView="true"
-                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img" />
+                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img"/>
 
                       
 ```
@@ -76,6 +76,11 @@ Note : use "implementation" instead of "compile" in dependencies section.
     <string name="DroidSansBold">DroidSans-Bold.ttf</string>
     
 ```
+# Change Logs [v1.3]
+
+ 1. able to change the expanded and collapse hint  
+ 2. ABug fixes.
+
 # Change Logs [v1.2]
 
 New feature:
@@ -115,6 +120,8 @@ Bug Fixes:
  | lib_checkMarkTint          | set drawable color in textview    |  default color                |
  | lib_checkedIconPosition    | set checkBox position             |  right side in default        |
  | lib_checkedDrawablePadding | set checkBox padding in view      |  5dp in default               |
+ | lib_setExpandHint          | set readmore hint like "show more"|  "more" in default            |
+ | lib_setCollapseHint        | set readless hint like "less"     |  "less" in default            |
 
 
 
