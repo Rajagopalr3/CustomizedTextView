@@ -29,12 +29,8 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    compile 'com.libRG:customtextview:1.3'
+    implementation 'com.libRG:customtextview:1.3'
 }
-
-Note : use "implementation" instead of "compile" in dependencies section.
-       "compile" is deprecated in android studio 3+ versions. 
-
 
 ```
 # Import as Module
