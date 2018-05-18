@@ -29,13 +29,13 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    implementation 'com.libRG:customtextview:1.3'
+    implementation 'com.libRG:customtextview:1.4'
 }
 
 ```
 # Import as Module
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.3.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.4.aar
 
 
 # XML
