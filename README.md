@@ -35,7 +35,7 @@ dependencies {
 ```
 # Import as Module
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.4.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.5.aar
 
 
 # XML
