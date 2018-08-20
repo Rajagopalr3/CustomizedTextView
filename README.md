@@ -18,6 +18,8 @@ the above features are done through xml file.
 
 <a href='https://bintray.com/rajagopalr3/CustomizedTextView/CustomTextView/_latestVersion'><img src='https://api.bintray.com/packages/rajagopalr3/CustomizedTextView/CustomTextView/images/download.svg'></a>
 
+<a href='https://bintray.com/rajagopalr3/CustomizedTextView/CustomTextView?source=watch' alt='Get automatic notifications about new "CustomTextView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/rajagopalr3/CustomizedTextView/CustomTextView?source=watch' alt='Get automatic notifications about new "CustomTextView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
+
  ![Screenshot](screenshot1.png)
 
 # Usage
