@@ -16,6 +16,8 @@ the above features are done through xml file.
 
 <a href="http://www.methodscount.com/?lib=com.libRG%3Acustomtextview%3A1.2"><img src="https://img.shields.io/badge/Methods count-195-e91e63.svg"/></a>    <a href="http://www.methodscount.com/?lib=com.libRG%3Acustomtextview%3A1.2"><img src="https://img.shields.io/badge/Size-30 KB-e91e63.svg"/></a>
 
+<a href='https://bintray.com/rajagopalr3/CustomizedTextView/CustomTextView/_latestVersion'><img src='https://api.bintray.com/packages/rajagopalr3/CustomizedTextView/CustomTextView/images/download.svg'></a>
+
  ![Screenshot](screenshot1.png)
 
 # Usage
