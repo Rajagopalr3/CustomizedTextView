@@ -33,13 +33,13 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    implementation 'com.libRG:customtextview:1.5'
+    implementation 'com.libRG:customtextview:1.6'
 }
 
 ```
 # Import as Module
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.5.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.6.aar
 
 
 # XML
@@ -76,6 +76,11 @@ dependencies {
     <string name="DroidSansBold">DroidSans-Bold.ttf</string>
     
 ```
+# Change Logs [v1.6]
+
+ 1. Bug fixes - creating customtextview by programmatically
+ 2. Removed unused lines in library
+ 
 # Change Logs [v1.3]
 
  1. Able to change the expanded and collapse hint  
