@@ -1,7 +1,7 @@
 
 # Customized and Expandable TextView
 
-Simple library to change the Textview as rectangle, circle and square shapes by adding one line of code in xml file.Multiple features are implemented in sindgle textview element.
+Simple library to change the Textview as rectangle, circle and square shapes by adding one line of code in xml file.Multiple features are implemented and wrapped into single textview.
 
 # Features  
 
