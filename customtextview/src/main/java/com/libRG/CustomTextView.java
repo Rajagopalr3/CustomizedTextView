@@ -36,6 +36,8 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Checkable;
 import android.widget.TextView;
 
+import com.libizo.R;
+
 
 /*
  * Created by ${Raja} on 28-Jun-17.
