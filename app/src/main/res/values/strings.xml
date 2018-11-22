@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">CustomizedTextView</string>
+    <string name="app_name">CustomTextView</string>
     <string name="action_settings">Settings</string>
 
-    <string name="DroidSansBold">DroidSans-Bold.ttf</string>
-    <string name="hint">Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets. Androids user interface is mainly based on direct manipulation, using touch gestures that loosely correspond to real world actions, such as swiping, tapping and pinching, to manipulate on screen objects, along with a virtual keyboard for text input. In addition to touchscreen devices, Google has further developed Android TV for televisions, Android Auto for cars, and Android Wear for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics</string>
+    <string name="robotoBold">Roboto-Bold.ttf</string>
+    <string name="robotoRegular">Roboto-Regular.ttf</string>
+
+    <string name="popinsBold">poppins_bold.ttf</string>
+    <string name="popinsRegular">poppins_regular.ttf</string>
+
 </resources>

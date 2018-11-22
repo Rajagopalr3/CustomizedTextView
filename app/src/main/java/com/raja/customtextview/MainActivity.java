@@ -1,20 +1,20 @@
 package com.raja.customtextview;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.libRG.CustomTextView;
+
 public class MainActivity extends AppCompatActivity {
 
+
+    CustomTextView textView,textView_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +22,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-    }
+        textView = findViewById(R.id.checkbox);
+        textView_1 =findViewById(R.id.checkbox_1);
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+        textView.setOnCheckedChangeListener(new CustomTextView.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(boolean isChecked) {
+              //  Toast.makeText(getApplicationContext(), String.valueOf(isChecked), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView_1.setChecked(!textView_1.isChecked());
+            }
+        });
+
     }
 
     @Override
@@ -45,4 +55,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
