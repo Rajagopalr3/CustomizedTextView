@@ -9,6 +9,7 @@ import java.util.Hashtable;
  * Created by ${Raja} on 30-Jun-17.
  */
 public class Typefaces {
+
     private static final Hashtable<String, Typeface> cache = new Hashtable<>();
 
     public static Typeface get(Context c, String name) {

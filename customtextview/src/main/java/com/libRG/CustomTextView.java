@@ -80,7 +80,6 @@ public class CustomTextView extends android.support.v7.widget.AppCompatTextView 
 
     @SuppressLint("ResourceType")
     private void init(AttributeSet attrs) {
-
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CustomTextView);
         isBorderView = a.getBoolean(R.styleable.CustomTextView_lib_setRoundedView, false);
         mBorderColor = a.getColor(R.styleable.CustomTextView_lib_setRoundedBorderColor, Color.parseColor("#B6B6B6"));
