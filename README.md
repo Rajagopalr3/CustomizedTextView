@@ -33,7 +33,7 @@ Add it in your app build.gradle at the end of repositories if not present in gra
 # Gradle Depedencies :
 
 dependencies {
-    implementation 'com.libRG:customtextview:1.7'
+    implementation 'com.libRG:customtextview:1.8'
 }
 
 ```
