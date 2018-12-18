@@ -22,25 +22,32 @@ the above features are done through xml file.
 
  ![Screenshot](screenshot1.png)
 
-# Usage
-To add CustomTextView into your project, import .aar as module or add through to gradle. 
+# Implementation
 
-
-Add it in your app build.gradle at the end of repositories if not present in gradle file:
+# Using Gradle:
 
 ```
-
-# Gradle Depedencies :
 
 dependencies {
     implementation 'com.libRG:customtextview:1.8'
 }
 
 ```
+
 # Import as Module
+Download the .aar file using below link and add this as module into your project
 
 [Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.7.aar
 
+```
+dependencies {
+     implementation project(':customtextview')
+}
+
+Add this into settings.gradle file:
+include ':customtextview'
+
+```
 
 # XML
 
