@@ -29,7 +29,7 @@ the above features are done through xml file.
 ```
 
 dependencies {
-    implementation 'com.libRG:customtextview:1.8'
+    implementation 'com.libRG:customtextview:1.9'
 }
 
 ```
@@ -37,7 +37,7 @@ dependencies {
 # Import as Module
 Download the .aar file using below link and add this as module into your project
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.7.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.9.aar
 
 ```
 dependencies {
