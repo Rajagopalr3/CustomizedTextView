@@ -10,7 +10,8 @@ Simple library to change the Textview as rectangle, circle and square shapes by 
 3.Font change via xml   
 4.UnderLine textview via xml    
 5.Strike through text via xml    
-6.CheckedTextView      
+6.CheckedTextView  
+7.Added ripple effect on click
 
 the above features are done through xml file.
 
@@ -29,7 +30,7 @@ the above features are done through xml file.
 ```
 
 dependencies {
-    implementation 'com.libRG:customtextview:1.9'
+    implementation 'com.libRG:customtextview:2.0'
 }
 
 ```
@@ -37,7 +38,7 @@ dependencies {
 # Import as Module
 Download the .aar file using below link and add this as module into your project
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-1.9.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-2.0.aar
 
 ```
 dependencies {
@@ -70,6 +71,8 @@ include ':customtextview'
                 app:lib_setRadius="3dp"
                 app:lib_setRoundedBorderColor="@color/colorPrimary"
                 app:lib_setRoundedView="true"
+                app:lib_enable_ripple_effect="true"
+                app:lib_setRippleColor="@color/colorPrimaryDark"
                 app:lib_unCheckedDrawable="@drawable/ic_unchecked_img"/>
 
                       
@@ -134,6 +137,8 @@ Bug Fixes:
  | lib_checkedDrawablePadding | set checkBox padding in view      |  5dp in default               |
  | lib_setExpandHint          | set readmore hint like "show more"|  "more" in default            |
  | lib_setCollapseHint        | set readless hint like "less"     |  "less" in default            |
+ | lib_enable_ripple_effect   | enable ripple effect              |  false in default             |
+ | lib_setRippleColor         | set ripple  color                 |  transparent color in default | 
  
  
  
