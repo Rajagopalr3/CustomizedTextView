@@ -55,25 +55,14 @@ include ':customtextview'
 ```
  <com.libRG.CustomTextView
                 android:id="@+id/c6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:padding="10dp"
-                android:text="CheckedTextView"
-                android:textColor="@color/colorPrimary"
-                android:visibility="visible"
-                app:lib_checkMarkTint="@color/colorPrimary"
-                app:lib_checkedDrawable="@drawable/ic_checked_img"
-                app:lib_checkedIconPosition="left"
-                app:lib_setChecked="true"
-                app:lib_setCheckedText="true"
                 app:lib_setFont="@string/droidSansBold"
                 app:lib_setRadius="3dp"
+                android:text="rectagular textview"
                 app:lib_setRoundedBorderColor="@color/colorPrimary"
                 app:lib_setRoundedView="true"
-                app:lib_enable_ripple_effect="true"
-                app:lib_setRippleColor="@color/colorPrimaryDark"
-                app:lib_unCheckedDrawable="@drawable/ic_unchecked_img"/>
+                app:lib_setShape="rectangle"/>
 
                       
 ```
