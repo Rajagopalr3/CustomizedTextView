@@ -11,7 +11,8 @@ Simple library to change the Textview as rectangle, circle and square shapes by 
 4.UnderLine textview via xml    
 5.Strike through text via xml    
 6.CheckedTextView  
-7.Added ripple effect on click
+7.Disable checkedTextView
+8.Added ripple effect on click
 
 the above features are done through xml file.
 
@@ -30,7 +31,7 @@ the above features are done through xml file.
 ```
 
 dependencies {
-    implementation 'com.libRG:customtextview:2.0'
+    implementation 'com.libRG:customtextview:2.1'
 }
 
 ```
@@ -122,13 +123,13 @@ Bug Fixes:
  | lib_checkedDrawable        | set checked drawable icon         |  default checked icon added   |
  | lib_unCheckedDrawable      | set unchecked drawable icon       |  default unchecked icon added |
  | lib_checkMarkTint          | set drawable color in textview    |  default color                |
+ | lib_disableCheckedTextClick| set clickable true or false       |  bydefault false              | 
  | lib_checkedIconPosition    | set checkBox position             |  right side in default        |
  | lib_checkedDrawablePadding | set checkBox padding in view      |  5dp in default               |
  | lib_setExpandHint          | set readmore hint like "show more"|  "more" in default            |
  | lib_setCollapseHint        | set readless hint like "less"     |  "less" in default            |
  | lib_enable_ripple_effect   | enable ripple effect              |  false in default             |
  | lib_setRippleColor         | set ripple  color                 |  transparent color in default | 
- 
  
  
   # License
