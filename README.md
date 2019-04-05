@@ -11,7 +11,7 @@ Simple library to change the Textview as rectangle, circle and square shapes by 
 4.UnderLine textview via xml    
 5.Strike through text via xml    
 6.CheckedTextView  
-7.Disable checkedTextView
+7.Disable checkedTextView  
 8.Added ripple effect on click
 
 the above features are done through xml file.
