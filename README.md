@@ -39,7 +39,7 @@ dependencies {
 # Import as Module
 Download the .aar file using below link and add this as module into your project
 
-[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-2.0.aar
+[Donwload module])https://github.com/Rajagopalr3/CustomizedTextView/blob/rajgopalr3/customtextview-2.1.aar
 
 ```
 dependencies {
