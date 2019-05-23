@@ -31,7 +31,7 @@ the above features are done through xml file.
 ```
 
 dependencies {
-    implementation 'com.libRG:customtextview:2.1'
+    implementation 'com.libRG:customtextview:2.2'
 }
 
 ```
