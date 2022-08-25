@@ -26,9 +26,17 @@ the above features are done through xml file.
 
 # Implementation
 
-# Using Gradle:
+# Using JCenter(Bintray) - DEPRECATED
+
 
 ```
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+ 			jcenter()
+		}
+	}
 
 dependencies {
     implementation 'com.libRG:customtextview:2.2'
